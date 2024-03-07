@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(132, 46, 193);
+    font-family: 'Arial', sans-serif; /* Improved readability with a sans-serif font */
+    color: rgb(255, 255, 255); /* Unified text color for body */
+    margin: 0; /* Reset margin for a cleaner look */
+    padding: 0; /* Reset padding for a cleaner look */
+}
+
+h3 {
+    color: white;
+    font-size: xx-large;
+    margin-bottom: 20px; /* Add some space between h3 and content */
+}
+
+.input-text {
+    outline: none;
+    background-color: #7fce75; 
+    border: 3px solid rgb(86, 86, 86);
+    height: 600px;
+    width: 600px;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    resize: none; 
+    overflow-wrap: break-word; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px; 
+    margin:10px 0px;
+    box-shadow: 0 4px 0.6rem rgba(224, 161, 233, 0.1); /* Add a subtle shadow for depth */
+
+
+}
+
+.output-text {
+    border-radius: 10px;
+    background-color: #404b49;
+    width: 500px;
+    height: 630px;
+    padding: 20px; 
+    overflow-wrap: break-word;
+    color: aqua;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
